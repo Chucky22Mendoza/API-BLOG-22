@@ -1,5 +1,88 @@
 <%- include('partials/header') %>
 
-<h1>WEB SERVICE RUNNING</h1>
+<h1>API BLOG 22 RUNNING</h1>
+
+<hr>
+
+<h2>DEV TOOLS</h2>
+
+<hr>
+
+<ul>
+    <li>NODEJS -&gt; EXPRESS</li>
+    <li>MONGODB -&gt; MONGOOSE</li>
+</ul>
+
+<hr>
+
+<h2>
+    <a href="http://www.api-blog-22.herokuapp.com">TRY NOW</a>
+</h2>
+
+<hr>
+
+<h2>ROUTES</h2>
+
+<hr>
+
+<h3>BLOG</h3>
+
+<hr>
+
+<h4>GET ALL BLOGS</h4>
+<pre><code class="lang-cmd">    <span class="hljs-meta">GET</span> /api/<span class="hljs-built_in">v1</span>/<span class="hljs-keyword">blog/</span>
+</code></pre>
+<h4 id="get-one-blog">GET ONE BLOG</h4>
+<pre><code class="lang-cmd">    GET <span class="hljs-meta-keyword">/api/</span>v1<span class="hljs-meta-keyword">/blog/</span><span class="hljs-params">&lt;id&gt;</span>
+</code></pre>
+<h4 id="create-blog">CREATE BLOG</h4>
+<pre><code class="lang-cmd">    POST <span class="hljs-regexp">/api/</span>v1<span class="hljs-regexp">/blog/</span>
+</code></pre>
+<h4 id="update-blog">UPDATE BLOG</h4>
+<pre><code class="lang-cmd">    PUT <span class="hljs-meta-keyword">/api/</span>v1<span class="hljs-meta-keyword">/blog/</span><span class="hljs-params">&lt;id&gt;</span>
+</code></pre>
+<h4 id="delete-blog">DELETE BLOG</h4>
+<pre><code class="lang-cmd">    DELETE <span class="hljs-meta-keyword">/api/</span>v1<span class="hljs-meta-keyword">/blog/</span><span class="hljs-params">&lt;id&gt;</span>
+</code></pre>
+<hr>
+
+<h3 id="tag">TAG</h3>
+<hr>
+
+<h4 id="get-all-tags">GET ALL TAGS</h4>
+<pre><code class="lang-cmd">    <span class="hljs-meta">GET</span> /api/<span class="hljs-built_in">v1</span>/tag/
+</code></pre>
+<h4 id="get-one-tag">GET ONE TAG</h4>
+<pre><code class="lang-cmd">    GET <span class="hljs-meta-keyword">/api/</span>v1<span class="hljs-meta-keyword">/tag/</span><span class="hljs-params">&lt;id&gt;</span>
+</code></pre>
+<h4 id="create-tag">CREATE TAG</h4>
+<pre><code class="lang-cmd">    POST <span class="hljs-regexp">/api/</span>v1<span class="hljs-regexp">/tag/</span>
+</code></pre>
+<h4 id="update-tag">UPDATE TAG</h4>
+<pre><code class="lang-cmd">    PUT <span class="hljs-meta-keyword">/api/</span>v1<span class="hljs-meta-keyword">/tag/</span><span class="hljs-params">&lt;id&gt;</span>
+</code></pre>
+<h4 id="delete-tag">DELETE TAG</h4>
+<pre><code class="lang-cmd">    DELETE <span class="hljs-meta-keyword">/api/</span>v1<span class="hljs-meta-keyword">/tag/</span><span class="hljs-params">&lt;id&gt;</span>
+</code></pre>
+<hr>
+
+<h3 id="author">AUTHOR</h3>
+<hr>
+
+<h4 id="get-all-authors">GET ALL AUTHORS</h4>
+<pre><code class="lang-cmd">    <span class="hljs-meta">GET</span> /api/<span class="hljs-built_in">v1</span>/author/
+</code></pre>
+<h4 id="get-one-author">GET ONE AUTHOR</h4>
+<pre><code class="lang-cmd">    GET <span class="hljs-meta-keyword">/api/</span>v1<span class="hljs-meta-keyword">/author/</span><span class="hljs-params">&lt;id&gt;</span>
+</code></pre>
+<h4 id="create-author">CREATE AUTHOR</h4>
+<pre><code class="lang-cmd">    POST <span class="hljs-regexp">/api/</span>v1<span class="hljs-regexp">/author/</span>
+</code></pre>
+<h4 id="update-author">UPDATE AUTHOR</h4>
+<pre><code class="lang-cmd">    PUT <span class="hljs-meta-keyword">/api/</span>v1<span class="hljs-meta-keyword">/author/</span><span class="hljs-params">&lt;id&gt;</span>
+</code></pre>
+<h4 id="delete-author">DELETE AUTHOR</h4>
+<pre><code class="lang-cmd">    DELETE <span class="hljs-meta-keyword">/api/</span>v1<span class="hljs-meta-keyword">/author/</span><span class="hljs-params">&lt;id&gt;</span>
+</code></pre>
 
 <%- include('partials/footer') %>
