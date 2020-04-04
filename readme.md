@@ -11,7 +11,7 @@
 
 <hr>
 
-## <a href="http://www.api-blog-22.herokuapp.com">TRY NOW</a>
+## <a href="http://api-blog-22.herokuapp.com">TRY NOW</a>
 
 <hr>
 
